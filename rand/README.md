@@ -6,7 +6,7 @@ Em C, o uso básico das funções de geração de números aleatórios continua 
 
 Um exemplo de uso do gerador de números aleatórios da biblioteca-padrão da linguagem C (glibc) está no arquivo `usarand.c`.
 
-A fim de aprofundar um pouco essa apresentação, na direção do ensino de linguagens de programação, é possível localizar, modificar e compilar o código-fonte da biblioteca e executar o código-fonte modifiado. 
+A fim de aprofundar um pouco essa apresentação, na direção do ensino de linguagens de programação, é possível localizar, modificar e compilar o código-fonte da biblioteca, executar o código-fonte modificado e verificar que a execução desse código modificado leva ao mesmo resultado da execução do código da biblioteca. 
 
 A biblioteca `glibc` é mantida pela Free Software Foundation em: https://www.gnu.org/savannah-checkouts/gnu/libc/ . Tanto a documentação quanto o código-fonte pode ser baixado gratuitamente.
 
@@ -22,7 +22,7 @@ Conseguir compilar e executar uma versão local pode ser trabalhoso, já que a b
 
 O resultado está na pasta [rand-gcc-from-source](./rand-gcc-from-source). Deve ser compilado com o comando `gcc -Wall testrandseq.c rand.c random.c random_r.c rand_r.c` (ainda não removi as pastas e arquivos-fonte que (acho que) não são necessários - ié todos os outros - porque removê-los tem o potencial (estimo que, baixo) de gerar outros problemas e requerer mais tempo para resolvê-los.
 
-Uma tentativa rápida é criar uma nova pasta e copiar somente os arquivos necessários. Fiz isso e o resultado foi bom. O executável foi criado e sua execução resulta nos mesmos números gerados por `usarand.c`. [Código-fonte](./rand-gcc-from-source-selected)
+Uma tentativa rápida é criar uma nova pasta e copiar somente os arquivos necessários. Fiz isso e o resultado foi bom. O executável foi criado e sua execução resulta nos mesmos números gerados por `usarand.c`. [rand-gcc-from-source-selected](./rand-gcc-from-source-selected). O comando `gcc -Wall testrandseq.c rand.c random.c random_r.c rand_r.c` compila e gera o teste.
 
 ### Registro da criação do código
 
