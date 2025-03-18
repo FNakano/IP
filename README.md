@@ -15,12 +15,15 @@ Espera-se que o aluno construa uma maneira de editar e testar programas que este
 3. Instalar Linux usando Windows Subsystem Linux (WSL);
 4. Instalar um gerenciador de máquinas virtuais (hypervisor) como VirtualBox e VMWare Play, dentro desse gerenciador instalar Linux;
 
-Os casos 1, 2 e 3 implicam em ajustes que podem atrapalhar outras pessoas que usem o mesmo computador. Quando teste o caso 3, habilitar WSL fez o monitor ter faixas piscando do lado direito, como se houvesse algum problema com resolução ou taxa de atualização, só consegui sanar esse problema reinstalando Windows a partir da partição de recuperação.
+Os casos 1, 2 e 3 implicam em ajustes que podem atrapalhar outras pessoas que usem o mesmo computador. Quando testei o caso 3, habilitar WSL fez o monitor ter faixas piscando do lado direito, como se houvesse algum problema com resolução ou taxa de atualização, só consegui sanar esse problema reinstalando Windows a partir da partição de recuperação. Então não recomendo o caso 3.
 
 No caso 4, instalam-se mais alguns programas dentro do Windows e outros dentro do Linux. Gasta-se uma tarde, mas as alterações para os outros usuários é a presença de alguns programas novos. O passo a passo está [passoApasso.md](./passoApasso.md).
 
 
-A idéia é que este repositório conterá explicações e código-fonte de IP. No momento contém alguns fragmentos de código e o [plano de atividades que decidi usar](./plano-08-05-2024.md).
+A idéia é que este repositório conterá explicações e código-fonte de IP. No momento contém:
+  
+- alguns fragmentos de código e o [plano de atividades que decidi usar **em 2024**](./plano-08-05-2024.md).
+- algumas atualizações de 2025 (é possível identificar através do histórico de *commits*).
 
 ## Fragmentos de código
 
