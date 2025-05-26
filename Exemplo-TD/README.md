@@ -1,4 +1,24 @@
-# Análise exploratória da calculadora do Tesouro Direto para título prefixado
+# Construção de uma biblioteca de funções para simulação de investimentos (e dívidas)
+
+## Motivação
+
+Em Introdução a Programação um dos tópicos relevantes é o uso de vetores (*arrays*), outro tópico é a modularização de código em funções e bibliotecas de funções. Neste exercício de programação a aplicação é a simulação de investimentos.
+
+## Organização
+
+Os programas `teste-1.c`, `teste-2.c`, `teste-3.c` consistem na elaboração e teste das funções de alocação e inicialização de arrays.
+
+A separação das funções em biblioteca (código, header e protótipos) e teste é feita em `teste-4.c`, `funcoesArray.c` e `funcoesArray.h`.
+
+Os programas `teste-5.c` a `teste-9.c` ilustram a implementação e teste de funções de cálculo de juros compostos e situações de aporte periódico e pagamento de prestações.
+
+O programa `teste-10.c` apresenta a aplicação da biblioteca na análise exploratória da calculadora do Tesouro Direto para título prefixado.
+
+O programa `teste-11.c` mostra a situação em que juros diários e juros mensais coincidem, na aplicação anterior. Isto permite compreender em que condições é possível usar um modelo mensal no lugar de um modelo diário.
+
+O programa `teste-12.c` mostra a aplicação da biblioteca em uma compra parcelada. A sugestão no código é ajustar o valor da taxa para que ela relacione o valor pago à vista e o valor das parcelas. Isto deve ser feito manualmente e é automatizado em `teste-13.c`.
+
+# Aplicação da biblioteca na análise exploratória da calculadora do Tesouro Direto para título prefixado
 
 Usando como exemplo o título Tesouro Prefixado 2028, o título, em 20 de maio de 2025, tem vencimento em 01/01/2028 e taxa 13,43%aa.
 
