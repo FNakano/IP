@@ -21,9 +21,9 @@ Configurando a calculadora com:
 - Taxa de Rentabilidade do Investimento: 13,43;
 - Taxa de administração do banco/corretora (%a.a.): 0;
 
-Obtém-se Valor bruto dos cupons e do resgate de 11343,01 em 252 dias úteis: [captura de tela calculadora TD 01/01/2027](../images/Captura%20de%20tela%20de%202025-05-25%2010-44-08.png)
-    * [captura de tela calculadora TD 03/01/2027](../images/Captura%20de%20tela%20de%202025-05-25%2010-45-25.png)
-    * [captura de tela calculadora TD 04/01/2027](../images/Captura%20de%20tela%20de%202025-05-25%2010-46-10.png)
+Obtém-se Valor bruto dos cupons e do resgate de 11343,01 em 252 dias úteis: [captura de tela calculadora TD 01/01/2027](./images/Captura%20de%20tela%20de%202025-05-25%2010-44-08.png)
+<!---    * [captura de tela calculadora TD 03/01/2027](./images/Captura%20de%20tela%20de%202025-05-25%2010-45-25.png)
+    * [captura de tela calculadora TD 04/01/2027](./images/Captura%20de%20tela%20de%202025-05-25%2010-46-10.png) --->
 
 ### Resultado
 
