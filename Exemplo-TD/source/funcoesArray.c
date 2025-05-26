@@ -35,11 +35,13 @@ void remunerarArray(double taxa, int numElem, double* array){
 }
 
 void adicionarAporteArray(double taxa, int numElem, double* array, double *aporte){
-/* acumula uma reserva: a partir de array[0] (valor inicial), acrescenta o 
-   aporte[0] no começo do respectivo mês e aplica a taxa. */ 
-        for (int i=1;i<numElem;i++) {
-          array[i]=(array[i-1]+aporte[i-1])+(array[i-1]+aporte[i-1])*taxa;
-        }
+/* acumula uma reserva: a partir de array[0] (valor inicial), aplica a taxa 
+ * e acrescenta aporte[0]. Supondo que essas operações ocorram instantaneamente
+ * (simultaneamente nesta ordem). */ 
+   array[0]+=aporte[0];
+   for (int i=1;i<numElem;i++) {
+       array[i]=array[i-1]+(array[i-1])*taxa+aporte[0];
+   }
 }
 
 /*
